@@ -1,0 +1,22 @@
+CHIP MUX16 {
+    IN a[16], b[16], sel;
+    OUT m16[16];
+
+    PARTS:
+    MUX(a = a[0], b = b[0], sel = sel, mux = m16[0]);
+    MUX(a = a[1], b = b[1], sel = sel, mux = m16[1]);
+    MUX(a = a[2], b = b[2], sel = sel, mux = m16[2]);
+    MUX(a = a[3], b = b[3], sel = sel, mux = m16[3]);
+    MUX(a = a[4], b = b[4], sel = sel, mux = m16[4]);
+    MUX(a = a[5], b = b[5], sel = sel, mux = m16[5]);
+    MUX(a = a[6], b = b[6], sel = sel, mux = m16[6]);
+    MUX(a = a[7], b = b[7], sel = sel, mux = m16[7]);
+    MUX(a = a[8], b = b[8], sel = sel, mux = m16[8]);
+    MUX(a = a[9], b = b[9], sel = sel, mux = m16[9]);
+    MUX(a = a[10], b = b[10], sel = sel, mux = m16[10]);
+    MUX(a = a[11], b = b[11], sel = sel, mux = m16[11]);
+    MUX(a = a[12], b = b[12], sel = sel, mux = m16[12]);
+    MUX(a = a[13], b = b[13], sel = sel, mux = m16[13]);
+    MUX(a = a[14], b = b[14], sel = sel, mux = m16[14]);
+    MUX(a = a[15], b = b[15], sel = sel, mux = m16[15]);
+}
